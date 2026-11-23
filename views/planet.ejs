@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <%- include('partials/head.ejs') %>
+
+    <body>
+        <%- include('partials/nav.ejs') %>
+        <h2><%=   planetName  %></h2>
+        
+        <img src="<%=   planetInfo.image  %>">
+        
+        <p>
+            <%= planetInfo.description %><br>
+            <% if (planetInfo.distanceFromSun) { %>
+                Distance From Sun: <%= planetInfo.distanceFromSun %><br>
+            <% } %>
+            <% if (planetInfo.yearLength) { %>
+                Year Length: <%= planetInfo.yearLength %><br>
+            <% } %>
+            Radius: <%= planetInfo.radius %> miles<br>
+            <% if (planetInfo.oneEarthDay) { %>
+                One Day: <%= planetInfo.oneEarthDay %>s<br>
+            <% } %>
+            <% if (planetInfo.moons !== undefined && planetInfo.moons !== null) { %>
+                Moons: <%= planetInfo.moons %><br>
+            <% } %>
+            Source: <a href="<%= planetInfo.websiteLink %>"><%= planetInfo.websiteLink %></a><br>
+        </p>
+
+        <%- include('partials/footer.ejs') %>
+    </body>
+</html>

@@ -1,0 +1,151 @@
+body {
+    background-color: #CBE2F6;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1c2d40;
+}
+
+nav {
+    background-color: #000000;
+    padding: 20px;
+}
+
+nav h1 {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #A8D8FF;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #163B65;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #245B8F;
+}
+
+body > p,
+.planet-info {
+    background-color: white;
+    max-width: 750px;
+    margin: 25px auto;
+    padding: 25px;
+    line-height: 2;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+    margin: 5px auto;
+}
+
+
+.nasa-container {
+    background-color: white;
+    max-width: 750px;
+    width: 85%;
+    margin: 25px auto;
+    padding: 25px;
+    line-height: 2;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+}
+
+.nasa-container h2 {
+    color: #163B65;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.nasa-container h3 {
+    color: #245B8F;
+    margin: 15px 0;
+}
+
+.nasa-container p {
+    line-height: 2;
+    text-align: left;
+    margin: 15px auto;
+}
+
+.nasa-explanation {
+    max-width: 650px;
+    width: 100%;
+    margin: 20px auto;
+    text-align: left;
+    line-height: 2;
+    overflow-wrap: break-word;
+}
+
+.nasa-explanation strong {
+    color: #163B65;
+}
+
+.nasa-explanation a {
+    color: #245B8F;
+    font-weight: bold;
+}
+
+.nasa-container img {
+    display: block;
+    max-width: 30%;
+    height: auto;
+    margin: 5px auto;
+}
+
+.nasa-container a:hover {
+    color: #163B65;
+}
+
+a {
+    color: #245B8F;
+}
+
+a:hover {
+    color: #163B65;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 10px;
+}
+
+footer a {
+    color: #A8D8FF;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.home-page {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
